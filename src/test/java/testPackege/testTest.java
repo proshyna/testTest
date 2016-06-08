@@ -14,13 +14,13 @@ public class testTest {
     static char c = 'g';
 
     public static void main(String[] args) {
-        Testing_pub();
+
         Testing_pri();
         Testing_prot();
         Testing_Nomod();
     }
 
-    public static void Testing_pub() {
+    public void Testing_pub() {
         System.out.println("Testing_pub() Executed");
         System.out.println("Value Of i Is " + i);
         System.out.println("Value Of str Is " + str);
@@ -30,6 +30,7 @@ public class testTest {
 
     private static void Testing_pri() {
         System.out.println("Testing_pri() Executed");
+
     }
 
     protected static void Testing_prot() {

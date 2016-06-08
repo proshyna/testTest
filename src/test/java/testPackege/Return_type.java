@@ -17,8 +17,8 @@ public class Return_type {
         return c;
     }
 
-    public static double Doub(int a, int b) {
-        d = a % b;
+    public static double Doub(double a, double b) {
+         d = a / b;
         return d;
     }
     public static void Message(){
